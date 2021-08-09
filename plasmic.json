@@ -1,0 +1,129 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "rdBHDjzAyjou3ad6LR1wYo",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "oBqymgIo6n",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "rdBHDjzAyjou3ad6LR1wYo",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "SQURK6XwW3",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group.jsx"
+        },
+        {
+          "id": "3NM9eEhLNY",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group2.jsx"
+        },
+        {
+          "id": "z8vyjWcN4h",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group3.jsx"
+        },
+        {
+          "id": "E1im7KV3HvW",
+          "name": "FaBrandsresearchgateIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__FaBrandsresearchgate.jsx"
+        },
+        {
+          "id": "V_2bxxraAKW",
+          "name": "CiborcidIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Ciborcid.jsx"
+        },
+        {
+          "id": "1Lyvr4Y_oN",
+          "name": "Rectangle4Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Rectangle4.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "Y67rgys1S",
+          "name": "Homepage",
+          "filePath": "plasmic/blank_project/images/homepage.png"
+        },
+        {
+          "id": "A96ceguwHG",
+          "name": "clip-new-samples-for-research 1",
+          "filePath": "plasmic/blank_project/images/clipNewSamplesForResearch1.png"
+        },
+        {
+          "id": "ASt8e1kNOO",
+          "name": "Drosophila 1",
+          "filePath": "plasmic/blank_project/images/drosophila1.png"
+        },
+        {
+          "id": "37GtQ-xfrN",
+          "name": "Drosophila 2",
+          "filePath": "plasmic/blank_project/images/drosophila2.png"
+        },
+        {
+          "id": "AiDEzsBLnp",
+          "name": "Ellipse 1",
+          "filePath": "plasmic/blank_project/images/ellipse1.jpeg"
+        },
+        {
+          "id": "MYlCm2CJg",
+          "name": "Ellipse 2",
+          "filePath": "plasmic/blank_project/images/ellipse2.svg"
+        },
+        {
+          "id": "ada-wFmcA",
+          "name": "Ellipse 3",
+          "filePath": "plasmic/blank_project/images/ellipse3.svg"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "G5yOZELTJNTZsiIaCYEe4ouzs2YCytvT1Eps6CDzafN3HZkGei0PlCVTsDWV3zY7N6UQqaFi3wWqkpZEig"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "pjkalEnQwi",
+        "name": "Screen",
+        "projectId": "rdBHDjzAyjou3ad6LR1wYo",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.158",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.158/dist/plasmic.schema.json"
+}
